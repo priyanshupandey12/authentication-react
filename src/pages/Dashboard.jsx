@@ -23,6 +23,7 @@ export default function Dashboard() {
           <p>Role: {user.user.role}</p>
         </div>
       )}
+      
         <div className="flex gap-2 flex-wrap">
   <button onClick={()=>navigate("/videos")}>Videos</button>
   <button onClick={()=>navigate("/products")}>Products</button>
